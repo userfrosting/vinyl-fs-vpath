@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Changed
-- Raised minimum NodeJS version from 12.17.0 to 14.
+- Raised minimum NodeJS version from 12.17.0 to 22.
 
 ## [3.0.3] - 2022-03-16
 
