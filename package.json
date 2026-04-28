@@ -63,7 +63,7 @@
         "del": "^8.0.1",
         "del-cli": "^7.0.0",
         "sort-on": "^6.0.0",
-        "typescript": "^5.4.2",
+        "typescript": "^6.0.3",
         "vinyl": "^3.0.0",
         "vinyl-fs": "^4.0.0"
     },
