@@ -12,38 +12,38 @@ importers:
         specifier: ^16.2.0
         version: 16.2.0
       plugin-error:
-        specifier: ^2.0.0
+        specifier: ^2.0.1
         version: 2.0.1
       ts-log:
-        specifier: ^2.2.5
+        specifier: ^2.2.7
         version: 2.2.7
       vinyl-file:
         specifier: ^5.0.0
         version: 5.0.0
     devDependencies:
       '@microsoft/api-documenter':
-        specifier: ^7.19.14
+        specifier: ^7.30.5
         version: 7.30.5(@types/node@25.6.0)
       '@microsoft/api-extractor':
-        specifier: ^7.31.2
+        specifier: ^7.58.7
         version: 7.58.7(@types/node@25.6.0)
       '@types/node':
         specifier: ^25.6.0
         version: 25.6.0
       '@types/vinyl':
-        specifier: ^2.0.6
+        specifier: ^2.0.12
         version: 2.0.12
       '@types/vinyl-fs':
-        specifier: ^3.0.1
+        specifier: ^3.0.7
         version: 3.0.7
       '@userfrosting/ts-log-adapter-ava':
         specifier: ^0.1.1
         version: 0.1.1
       ava:
-        specifier: ^6.1.2
+        specifier: ^6.4.1
         version: 6.4.1
       c8:
-        specifier: ^10.0.0
+        specifier: ^10.1.3
         version: 10.1.3
       changelog-updater:
         specifier: 2.0.3
@@ -58,16 +58,16 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0
       sort-on:
-        specifier: ^6.0.0
+        specifier: ^6.1.1
         version: 6.1.1
       typescript:
-        specifier: ^5.4.2
+        specifier: ^5.9.3
         version: 5.9.3
       vinyl:
-        specifier: ^3.0.0
+        specifier: ^3.0.1
         version: 3.0.1
       vinyl-fs:
-        specifier: ^4.0.0
+        specifier: ^4.0.2
         version: 4.0.2
 
 packages:
@@ -859,8 +859,8 @@ packages:
   fast-json-stable-stringify@2.1.0:
     resolution: {integrity: sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==}
 
-  fast-uri@3.1.0:
-    resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
+  fast-uri@3.1.2:
+    resolution: {integrity: sha512-rVjf7ArG3LTk+FS6Yw81V1DLuZl1bRbNrev6Tmd/9RaroeeRRJhAt7jg/6YFxbvAQXUCavSoZhPPj6oOx+5KjQ==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -2070,7 +2070,7 @@ snapshots:
   ajv@8.18.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.0
+      fast-uri: 3.1.2
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -2466,7 +2466,7 @@ snapshots:
 
   fast-json-stable-stringify@2.1.0: {}
 
-  fast-uri@3.1.0: {}
+  fast-uri@3.1.2: {}
 
   fastq@1.20.1:
     dependencies:
