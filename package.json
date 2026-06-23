@@ -46,7 +46,7 @@
     "dependencies": {
         "globby": "^16.2.0",
         "plugin-error": "^2.0.0",
-        "ts-log": "^2.2.5",
+        "ts-log": "^3.0.0",
         "vinyl-file": "^5.0.0"
     },
     "devDependencies": {

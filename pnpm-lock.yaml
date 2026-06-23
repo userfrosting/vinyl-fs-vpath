@@ -15,8 +15,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.1
       ts-log:
-        specifier: ^2.2.5
-        version: 2.2.7
+        specifier: ^3.0.0
+        version: 3.0.0
       vinyl-file:
         specifier: ^5.0.0
         version: 5.0.0
@@ -1484,6 +1484,10 @@ packages:
 
   ts-log@2.2.7:
     resolution: {integrity: sha512-320x5Ggei84AxzlXp91QkIGSw5wgaLT6GeAH0KsqDmRZdVWW2OiSeVvElVoatk3f7nicwXlElXsoFkARiGE2yg==}
+
+  ts-log@3.0.0:
+    resolution: {integrity: sha512-dOh2B+XwtPsIt+bOy0krUiGGO9fbqUCrR4nkNNir/EObVmEJYd4q6KkfF2Ni8/QG1Lji3JwX8TrTa7LHftPWsA==}
+    engines: {node: '>=20'}
 
   type-fest@0.13.1:
     resolution: {integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==}
@@ -3029,6 +3033,8 @@ snapshots:
   tr46@0.0.3: {}
 
   ts-log@2.2.7: {}
+
+  ts-log@3.0.0: {}
 
   type-fest@0.13.1: {}
 
