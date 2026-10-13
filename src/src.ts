@@ -89,7 +89,11 @@ class VinylFsVPathSrc extends Readable {
      */
     _read() {
         while (this.files.length > 0) {
-            const { actual, virtual } = this.files.pop();
+            const file = this.files.pop();
+            if (file === undefined) {
+                break;
+            }
+            const { actual, virtual } = file;
 
             try {
                 const file = vinylFileSync(actual, this.vinylFsSrcOptions) as File;
@@ -103,7 +107,8 @@ class VinylFsVPathSrc extends Readable {
                 return;
             } catch (error) {
                 // This can happen when there are file changes during processing, difficult to test
-                this.emit("error", new PluginError("@userfrosting/vinyl-fs-vpath", error));
+                const cause = error instanceof Error ? error : new Error(String(error));
+                this.emit("error", new PluginError("@userfrosting/vinyl-fs-vpath", cause));
             }
         }
 
