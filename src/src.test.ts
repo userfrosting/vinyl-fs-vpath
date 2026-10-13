@@ -252,13 +252,14 @@ test("Outputs equivalent to vinyl-fs package", async t => {
 
     // atime varies so we override to something more stable
     const atime = new Date();
-    actual.forEach(file => {
+    [...actual, ...expected].forEach(file => {
         file.stat.atime = atime;
-        file.stat.atimeMs = atime.getMilliseconds();
-    });
-    expected.forEach(file => {
-        file.stat.atime = atime;
-        file.stat.atimeMs = atime.getMilliseconds();
+        file.stat.atimeMs = atime.getTime();
+
+        // Date properties may be non-enumerable until accessed, and lost when stats are cloned.
+        for (const key of ["mtime", "ctime", "birthtime"] as const) {
+            file.stat[key] = new Date(file.stat[`${key}Ms`]);
+        }
     });
 
     t.deepEqual(sortOn(actual, "history"), sortOn(expected, "history"));
