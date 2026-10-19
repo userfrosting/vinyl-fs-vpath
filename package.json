@@ -61,7 +61,7 @@
         "changelog-updater": "2.0.3",
         "cspell": "^10.0.0",
         "del": "^8.0.1",
-        "del-cli": "^7.0.0",
+        "del-cli": "^8.0.1",
         "sort-on": "^7.0.0",
         "typescript": "^7.0.2",
         "vinyl": "^3.0.0",
