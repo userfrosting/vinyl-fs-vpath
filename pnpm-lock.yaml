@@ -41,7 +41,7 @@ importers:
         version: 0.1.1
       ava:
         specifier: ^8.0.0
-        version: 8.3.0(supports-color@8.1.1)
+        version: 8.4.0(supports-color@8.1.1)
       c8:
         specifier: ^12.0.0
         version: 12.0.0
@@ -629,10 +629,6 @@ packages:
     resolution: {integrity: sha512-SFKX67auSNoVR38N3L+nvsPjOE0bybKTYbkf5tRvushrAPQ9V75huw0ZxBkKVeRU9kqH3d6HA4xTckbwZ4ixmA==}
     engines: {node: '>=0.10.0'}
 
-  ansi-regex@6.4.0:
-    resolution: {integrity: sha512-KzTVk2tCWAHtYrvvvaP8bJKJq2pVinhLcGEQdtLIYPbmNGNyYe8QwNaTUYQp2J7/vIsUKt5QCqAfUkYyG9DkOw==}
-    engines: {node: '>=12'}
-
   ansi-regex@6.5.0:
     resolution: {integrity: sha512-zhvbbbdt1kbw7EJ9OQoxmQcuaNR9P5kTj7e/YdmOSU10aHWbycofJxA6jKfoEy3vlLdctOF9ZHaxLtmSm998wQ==}
     engines: {node: '>=12'}
@@ -677,8 +673,8 @@ packages:
   async-sema@3.1.1:
     resolution: {integrity: sha512-tLRNUXati5MFePdAk8dw7Qt7DpxPB60ofAgn8WRhW6a2rcimZnYBP9oxHiv0OHy+Wz7kPMG+t4LGdt31+4EmGg==}
 
-  ava@8.3.0:
-    resolution: {integrity: sha512-Tr/p0fmC+oCJo5+m1oJdpmBxC1OO57xtVKlJfbN0gkz31yofpk08jl4Hzx654RdKq1FPc0XYiHF4ZzdqR+87gg==}
+  ava@8.4.0:
+    resolution: {integrity: sha512-thHHhRJa6al6+45y9L8ei7u1QYHFKpt5S3jy2A2t/bd9EoJ9wIEJgLuyXuRg5tEnwryqWxLuu4ig+QSPx6yfUA==}
     engines: {node: ^22.20 || ^24.12 || >=26}
     hasBin: true
     peerDependencies:
@@ -1406,11 +1402,6 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  semver@7.8.5:
-    resolution: {integrity: sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.8.6:
     resolution: {integrity: sha512-9lpSSU4Mly3mrtruwLs1eLK6+gzbzqeBFwRNjIjE+9LuDpWdYctrQlQ3ej1Ilgi7gknpsTRnPoLP8DpCHqHIJw==}
     engines: {node: '>=10'}
@@ -1942,7 +1933,7 @@ snapshots:
       https-proxy-agent: 7.0.6(supports-color@8.1.1)
       node-fetch: 2.7.0
       nopt: 8.1.0
-      semver: 7.8.5
+      semver: 7.8.6
       tar: 7.5.22
     transitivePeerDependencies:
       - encoding
@@ -2218,8 +2209,6 @@ snapshots:
     dependencies:
       ansi-wrap: 0.1.0
 
-  ansi-regex@6.4.0: {}
-
   ansi-regex@6.5.0: {}
 
   ansi-styles@6.2.3: {}
@@ -2249,7 +2238,7 @@ snapshots:
 
   async-sema@3.1.1: {}
 
-  ava@8.3.0(supports-color@8.1.1):
+  ava@8.4.0(supports-color@8.1.1):
     dependencies:
       '@vercel/nft': 1.11.0(supports-color@8.1.1)
       acorn: 8.19.0
@@ -2401,7 +2390,7 @@ snapshots:
       js-string-escape: 1.0.1
       lodash: 4.18.1
       md5-hex: 3.0.1
-      semver: 7.8.5
+      semver: 7.8.6
       well-known-symbols: 2.0.0
 
   consola@3.4.2: {}
@@ -2955,8 +2944,6 @@ snapshots:
 
   semver@7.7.4: {}
 
-  semver@7.8.5: {}
-
   semver@7.8.6: {}
 
   serialize-error@7.0.1:
@@ -3027,7 +3014,7 @@ snapshots:
 
   strip-ansi@7.2.0:
     dependencies:
-      ansi-regex: 6.4.0
+      ansi-regex: 6.5.0
 
   strip-bom-buf@3.0.1:
     dependencies:
